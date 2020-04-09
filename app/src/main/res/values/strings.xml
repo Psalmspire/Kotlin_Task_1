@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Task_1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Slack Username: Psalmspire</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tracks_mobile_design_front_end_back_end">Tracks = Mobile, Design, front end, Back end</string>
+    <string name="email_address_psalmuel4praiz_gmail_com">Email address = Psalmuel4praiz@gmail.com</string>
+    <string name="slack_username_psalmspire">Slack Username = Psalmspire</string>
+    <string name="full_name_timohy_samuel_onyekachi">Full name = Timohy Samuel Onyekachi</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1703A9F4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_first"
+        style="@style/TextAppearanceTextView"
+        android:background="#8C1B1B"
+        android:text="@string/next"
+        android:textColor="#EADADA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Tracks" />
+
+
+    <TextView
+        android:id="@+id/full_name"
+        style="@style/TextAppearanceTextView"
+        android:text="@string/full_name_timohy_samuel_onyekachi"
+        android:textColor="#673AB7"
+
+        app:layout_constraintBottom_toTopOf="@id/user_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <TextView
+        android:id="@+id/user_name"
+        style="@style/TextAppearanceTextView"
+        android:layout_marginBottom="180dp"
+        android:text="@string/slack_username_psalmspire"
+
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toTopOf="@id/email_ad"
+        app:layout_constraintTop_toBottomOf="@id/full_name"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <TextView
+        android:id="@+id/email_ad"
+        style="@style/TextAppearanceTextView"
+        android:text="@string/email_address_psalmuel4praiz_gmail_com"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toTopOf="@id/Tracks"
+        app:layout_constraintTop_toBottomOf="@id/user_name"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <TextView
+        android:id="@+id/Tracks"
+        style="@style/TextAppearanceTextView"
+        android:layout_marginTop="400dp"
+        android:text="@string/tracks_mobile_design_front_end_back_end"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toTopOf="@id/button_first"
+        app:layout_constraintTop_toBottomOf="@id/email_ad"
+        tools:layout_editor_absoluteX="64dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
